@@ -1,5 +1,14 @@
 #include <iostream>
+#include "poczta.h"
+
 
 int main() {
-  std::cout << "Hello World!\n";
+ 
+  Poczta p1;
+
+  p1.Wypisz();
+
+  p1.Wczytaj("Jan", "Alina", "Zakupy", "Dzis trzeba zrobic zakupy");
+
+  p1.Wypisz();
 }
